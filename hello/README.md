@@ -22,7 +22,7 @@ This plugin will build a docker image whenever the `mvn package` command is ran
 	    </execution>
 	</executions>
 	<configuration>
-        <repsitory>yog3shwar/${project.name}</repsitory>
+        <repository>yog3shwar/${project.name}</repository>
 		<tag>${project.version}</tag>
 		<skipDockerInfo>true</skipDockerInfo>
 		</configuration>
